@@ -9,6 +9,21 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        discordmsg_down {
+            bindings = <&kp LA(LS(DOWN_ARROW))>;
+            key-positions = <29>;
+            layers = <1>;
+        };
+
+        discordmsg_up {
+            bindings = <&kp LS(LA(UP_ARROW))>;
+            key-positions = <28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
