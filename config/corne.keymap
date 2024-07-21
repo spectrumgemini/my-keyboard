@@ -21,6 +21,7 @@
         discordmsg_up {
             bindings = <&kp LS(LA(UP_ARROW))>;
             key-positions = <28>;
+            layers = <1>;
         };
     };
 
